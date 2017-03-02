@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26127.0
+VisualStudioVersion = 15.0.26206.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4BEA4EC4-BFF8-4F11-90F8-1D868B6EBA6D}"
 EndProject
@@ -13,6 +13,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary1", "ClassLibrary1\ClassLibrary1.csproj", "{C419705B-3D80-4206-849C-8BB6852AC730}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Functions", "Functions\Functions.csproj", "{89DF91CD-8778-40C5-9F08-DD16976B07BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseProxy", "ReverseProxy\ReverseProxy.csproj", "{DBA8B7DB-3813-40D4-B8F7-E89C235A734A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -48,6 +50,18 @@ Global
 		{89DF91CD-8778-40C5-9F08-DD16976B07BA}.Release|x64.Build.0 = Release|x64
 		{89DF91CD-8778-40C5-9F08-DD16976B07BA}.Release|x86.ActiveCfg = Release|x86
 		{89DF91CD-8778-40C5-9F08-DD16976B07BA}.Release|x86.Build.0 = Release|x86
+		{DBA8B7DB-3813-40D4-B8F7-E89C235A734A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBA8B7DB-3813-40D4-B8F7-E89C235A734A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBA8B7DB-3813-40D4-B8F7-E89C235A734A}.Debug|x64.ActiveCfg = Debug|x64
+		{DBA8B7DB-3813-40D4-B8F7-E89C235A734A}.Debug|x64.Build.0 = Debug|x64
+		{DBA8B7DB-3813-40D4-B8F7-E89C235A734A}.Debug|x86.ActiveCfg = Debug|x86
+		{DBA8B7DB-3813-40D4-B8F7-E89C235A734A}.Debug|x86.Build.0 = Debug|x86
+		{DBA8B7DB-3813-40D4-B8F7-E89C235A734A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBA8B7DB-3813-40D4-B8F7-E89C235A734A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBA8B7DB-3813-40D4-B8F7-E89C235A734A}.Release|x64.ActiveCfg = Release|x64
+		{DBA8B7DB-3813-40D4-B8F7-E89C235A734A}.Release|x64.Build.0 = Release|x64
+		{DBA8B7DB-3813-40D4-B8F7-E89C235A734A}.Release|x86.ActiveCfg = Release|x86
+		{DBA8B7DB-3813-40D4-B8F7-E89C235A734A}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -55,5 +69,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{C419705B-3D80-4206-849C-8BB6852AC730} = {4BEA4EC4-BFF8-4F11-90F8-1D868B6EBA6D}
 		{89DF91CD-8778-40C5-9F08-DD16976B07BA} = {4BEA4EC4-BFF8-4F11-90F8-1D868B6EBA6D}
+		{DBA8B7DB-3813-40D4-B8F7-E89C235A734A} = {4BEA4EC4-BFF8-4F11-90F8-1D868B6EBA6D}
 	EndGlobalSection
 EndGlobal
