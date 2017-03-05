@@ -44,7 +44,7 @@ namespace Functions
             loggerFactory.AddConsole(Configuration.GetSection("Logging"));
             loggerFactory.AddDebug();
 
-            var targetAssembly = AssemblyLoadContext.Default.LoadFromAssemblyPath(@"C:\Users\Phoenix\documents\visual studio 2017\Projects\Functions\ClassLibrary1\bin\Debug\netcoreapp1.1\ClassLibrary1.dll");
+            var targetAssembly = AssemblyLoadContext.Default.LoadFromAssemblyPath(@"D:\Documents\Visual Studio 2017\Projects\Functions\ClassLibrary1\bin\Debug\netcoreapp1.1\ClassLibrary1.dll");
 
             var inst = targetAssembly.CreateInstance("ClassLibrary1.Class1");
             var targetType = inst.GetType();

@@ -33,12 +33,15 @@ namespace ReverseProxy
             app.UseProxy(
                 new List<ProxyRule> {
                     new ProxyRule {
-                        Matcher = uri => uri.AbsoluteUri.Contains("/api/"),
+                        Matcher = uri =>
+                        {
+                            return uri.AbsolutePath.StartsWith("/api/");
+                        },
                         Modifier = (request, principal) => {
                              var match = Regex.Match(request.RequestUri.AbsolutePath, "/api/(.+)");
                              request.RequestUri = new Uri("http://localhost:53713/api/" + match.Groups[1].Value);
                         },
-                        RequiresAuthentication = true
+                        RequiresAuthentication = false
                     }
                 },
                 r =>
